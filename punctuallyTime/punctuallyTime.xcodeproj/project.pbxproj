@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04D9E8BF22706C41008C97D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9E8BE22706C41008C97D0 /* AppDelegate.m */; };
-		04D9E8C222706C41008C97D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9E8C122706C41008C97D0 /* ViewController.m */; };
-		04D9E8C522706C41008C97D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D9E8C322706C41008C97D0 /* Main.storyboard */; };
 		04D9E8C722706C42008C97D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D9E8C622706C42008C97D0 /* Assets.xcassets */; };
 		04D9E8CA22706C42008C97D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D9E8C822706C42008C97D0 /* LaunchScreen.storyboard */; };
-		04D9E8CD22706C42008C97D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9E8CC22706C42008C97D0 /* main.m */; };
 		04D9E8D722706C42008C97D0 /* punctuallyTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9E8D622706C42008C97D0 /* punctuallyTimeTests.m */; };
 		04D9E8E222706C42008C97D0 /* punctuallyTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9E8E122706C42008C97D0 /* punctuallyTimeUITests.m */; };
+		04D9E8F422706ED9008C97D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9E8F122706ED8008C97D0 /* main.m */; };
+		04D9E8F522706ED9008C97D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9E8F222706ED8008C97D0 /* AppDelegate.m */; };
+		04D9E90322707242008C97D0 /* baseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9E8FE22707242008C97D0 /* baseNavigationController.m */; };
+		04D9E906227074E8008C97D0 /* baseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9E905227074E8008C97D0 /* baseTabBarController.m */; };
+		04D9E90A22707551008C97D0 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9E90822707551008C97D0 /* CalendarViewController.m */; };
+		04D9E90B22707551008C97D0 /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D9E90922707551008C97D0 /* CalendarViewController.xib */; };
+		04D9E90F22707570008C97D0 /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9E90D22707570008C97D0 /* TimeViewController.m */; };
+		04D9E91022707570008C97D0 /* TimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D9E90E22707570008C97D0 /* TimeViewController.xib */; };
+		04D9E9142270759A008C97D0 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9E9122270759A008C97D0 /* SettingViewController.m */; };
+		04D9E9152270759A008C97D0 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D9E9132270759A008C97D0 /* SettingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +42,31 @@
 
 /* Begin PBXFileReference section */
 		04D9E8BA22706C41008C97D0 /* punctuallyTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = punctuallyTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04D9E8BD22706C41008C97D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		04D9E8BE22706C41008C97D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04D9E8C022706C41008C97D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04D9E8C122706C41008C97D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04D9E8C422706C41008C97D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04D9E8C622706C42008C97D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D9E8C922706C42008C97D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		04D9E8CB22706C42008C97D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04D9E8CC22706C42008C97D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04D9E8D222706C42008C97D0 /* punctuallyTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = punctuallyTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D9E8D622706C42008C97D0 /* punctuallyTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = punctuallyTimeTests.m; sourceTree = "<group>"; };
 		04D9E8D822706C42008C97D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D9E8DD22706C42008C97D0 /* punctuallyTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = punctuallyTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D9E8E122706C42008C97D0 /* punctuallyTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = punctuallyTimeUITests.m; sourceTree = "<group>"; };
 		04D9E8E322706C42008C97D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D9E8F022706ED8008C97D0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04D9E8F122706ED8008C97D0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04D9E8F222706ED8008C97D0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04D9E8F322706ED8008C97D0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D9E8FE22707242008C97D0 /* baseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseNavigationController.m; sourceTree = "<group>"; };
+		04D9E8FF22707242008C97D0 /* baseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseNavigationController.h; sourceTree = "<group>"; };
+		04D9E904227074E8008C97D0 /* baseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baseTabBarController.h; sourceTree = "<group>"; };
+		04D9E905227074E8008C97D0 /* baseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baseTabBarController.m; sourceTree = "<group>"; };
+		04D9E90722707551008C97D0 /* CalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		04D9E90822707551008C97D0 /* CalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		04D9E90922707551008C97D0 /* CalendarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarViewController.xib; sourceTree = "<group>"; };
+		04D9E90C22707570008C97D0 /* TimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
+		04D9E90D22707570008C97D0 /* TimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
+		04D9E90E22707570008C97D0 /* TimeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeViewController.xib; sourceTree = "<group>"; };
+		04D9E9112270759A008C97D0 /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		04D9E9122270759A008C97D0 /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		04D9E9132270759A008C97D0 /* SettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +117,12 @@
 		04D9E8BC22706C41008C97D0 /* punctuallyTime */ = {
 			isa = PBXGroup;
 			children = (
-				04D9E8BD22706C41008C97D0 /* AppDelegate.h */,
-				04D9E8BE22706C41008C97D0 /* AppDelegate.m */,
-				04D9E8C022706C41008C97D0 /* ViewController.h */,
-				04D9E8C122706C41008C97D0 /* ViewController.m */,
-				04D9E8C322706C41008C97D0 /* Main.storyboard */,
+				04D9E90022707242008C97D0 /* Calendar */,
+				04D9E90222707242008C97D0 /* Time */,
+				04D9E90122707242008C97D0 /* Setting */,
+				04D9E8FD22707242008C97D0 /* BaseView */,
+				04D9E8EF22706ED8008C97D0 /* main */,
 				04D9E8C622706C42008C97D0 /* Assets.xcassets */,
-				04D9E8C822706C42008C97D0 /* LaunchScreen.storyboard */,
-				04D9E8CB22706C42008C97D0 /* Info.plist */,
-				04D9E8CC22706C42008C97D0 /* main.m */,
 			);
 			path = punctuallyTime;
 			sourceTree = "<group>";
@@ -130,6 +143,59 @@
 				04D9E8E322706C42008C97D0 /* Info.plist */,
 			);
 			path = punctuallyTimeUITests;
+			sourceTree = "<group>";
+		};
+		04D9E8EF22706ED8008C97D0 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				04D9E8F022706ED8008C97D0 /* AppDelegate.h */,
+				04D9E8F222706ED8008C97D0 /* AppDelegate.m */,
+				04D9E8F122706ED8008C97D0 /* main.m */,
+				04D9E8F322706ED8008C97D0 /* Info.plist */,
+				04D9E8C822706C42008C97D0 /* LaunchScreen.storyboard */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		04D9E8FD22707242008C97D0 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				04D9E8FF22707242008C97D0 /* baseNavigationController.h */,
+				04D9E8FE22707242008C97D0 /* baseNavigationController.m */,
+				04D9E904227074E8008C97D0 /* baseTabBarController.h */,
+				04D9E905227074E8008C97D0 /* baseTabBarController.m */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		04D9E90022707242008C97D0 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				04D9E90722707551008C97D0 /* CalendarViewController.h */,
+				04D9E90822707551008C97D0 /* CalendarViewController.m */,
+				04D9E90922707551008C97D0 /* CalendarViewController.xib */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		04D9E90122707242008C97D0 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				04D9E9112270759A008C97D0 /* SettingViewController.h */,
+				04D9E9122270759A008C97D0 /* SettingViewController.m */,
+				04D9E9132270759A008C97D0 /* SettingViewController.xib */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		04D9E90222707242008C97D0 /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				04D9E90C22707570008C97D0 /* TimeViewController.h */,
+				04D9E90D22707570008C97D0 /* TimeViewController.m */,
+				04D9E90E22707570008C97D0 /* TimeViewController.xib */,
+			);
+			path = Time;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D9E8CA22706C42008C97D0 /* LaunchScreen.storyboard in Resources */,
+				04D9E9152270759A008C97D0 /* SettingViewController.xib in Resources */,
+				04D9E91022707570008C97D0 /* TimeViewController.xib in Resources */,
 				04D9E8C722706C42008C97D0 /* Assets.xcassets in Resources */,
-				04D9E8C522706C41008C97D0 /* Main.storyboard in Resources */,
+				04D9E90B22707551008C97D0 /* CalendarViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +330,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D9E8C222706C41008C97D0 /* ViewController.m in Sources */,
-				04D9E8CD22706C42008C97D0 /* main.m in Sources */,
-				04D9E8BF22706C41008C97D0 /* AppDelegate.m in Sources */,
+				04D9E906227074E8008C97D0 /* baseTabBarController.m in Sources */,
+				04D9E8F522706ED9008C97D0 /* AppDelegate.m in Sources */,
+				04D9E90322707242008C97D0 /* baseNavigationController.m in Sources */,
+				04D9E9142270759A008C97D0 /* SettingViewController.m in Sources */,
+				04D9E90A22707551008C97D0 /* CalendarViewController.m in Sources */,
+				04D9E8F422706ED9008C97D0 /* main.m in Sources */,
+				04D9E90F22707570008C97D0 /* TimeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +372,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04D9E8C322706C41008C97D0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04D9E8C422706C41008C97D0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04D9E8C822706C42008C97D0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -435,8 +499,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = punctuallyTime/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/punctuallyTime/main/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,6 +509,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.THEWALKINGDEAD.punctuallyTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -452,8 +518,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = punctuallyTime/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/punctuallyTime/main/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,6 +528,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.THEWALKINGDEAD.punctuallyTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

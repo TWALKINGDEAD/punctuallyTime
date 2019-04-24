@@ -7,6 +7,11 @@
 //
 
 #import "baseTabBarController.h"
+#import "CalendarViewController.h"
+#import "TimeViewController.h"
+#import "SettingViewController.h"
+
+
 
 @interface baseTabBarController ()
 
@@ -17,7 +22,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    
+    
 }
+
+
+
+
 
 /*
 #pragma mark - Navigation
