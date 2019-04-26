@@ -22,16 +22,11 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    
-    baseNavigationController *baseNabigatCon = [baseNavigationController new];
-    
+
     baseTabBarController *tabBar = [baseTabBarController new];
-    
-    
-    
-    self.window.rootViewController = baseNabigatCon;
-    
-    
+
+    self.window.rootViewController = tabBar;
+
     [self.window makeKeyAndVisible];
     
     return YES;

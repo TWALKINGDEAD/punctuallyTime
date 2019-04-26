@@ -16,11 +16,12 @@
 		04D9E90322707242008C97D0 /* baseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9E8FE22707242008C97D0 /* baseNavigationController.m */; };
 		04D9E906227074E8008C97D0 /* baseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9E905227074E8008C97D0 /* baseTabBarController.m */; };
 		04D9E90A22707551008C97D0 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9E90822707551008C97D0 /* CalendarViewController.m */; };
-		04D9E90B22707551008C97D0 /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D9E90922707551008C97D0 /* CalendarViewController.xib */; };
 		04D9E90F22707570008C97D0 /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9E90D22707570008C97D0 /* TimeViewController.m */; };
 		04D9E91022707570008C97D0 /* TimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D9E90E22707570008C97D0 /* TimeViewController.xib */; };
 		04D9E9142270759A008C97D0 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9E9122270759A008C97D0 /* SettingViewController.m */; };
 		04D9E9152270759A008C97D0 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D9E9132270759A008C97D0 /* SettingViewController.xib */; };
+		04DEF70322719DD00023EE4E /* UIView+ViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEF70222719DD00023EE4E /* UIView+ViewExtension.m */; };
+		04DEF7072271C59A0023EE4E /* AddTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEF7062271C59A0023EE4E /* AddTimeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,13 +61,17 @@
 		04D9E905227074E8008C97D0 /* baseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baseTabBarController.m; sourceTree = "<group>"; };
 		04D9E90722707551008C97D0 /* CalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
 		04D9E90822707551008C97D0 /* CalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
-		04D9E90922707551008C97D0 /* CalendarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarViewController.xib; sourceTree = "<group>"; };
 		04D9E90C22707570008C97D0 /* TimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
 		04D9E90D22707570008C97D0 /* TimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
 		04D9E90E22707570008C97D0 /* TimeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeViewController.xib; sourceTree = "<group>"; };
 		04D9E9112270759A008C97D0 /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		04D9E9122270759A008C97D0 /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		04D9E9132270759A008C97D0 /* SettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		04DEF70122719DD00023EE4E /* UIView+ViewExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewExtension.h"; sourceTree = "<group>"; };
+		04DEF70222719DD00023EE4E /* UIView+ViewExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewExtension.m"; sourceTree = "<group>"; };
+		04DEF70422719E470023EE4E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04DEF7052271C59A0023EE4E /* AddTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTimeViewController.h; sourceTree = "<group>"; };
+		04DEF7062271C59A0023EE4E /* AddTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTimeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +158,9 @@
 				04D9E8F122706ED8008C97D0 /* main.m */,
 				04D9E8F322706ED8008C97D0 /* Info.plist */,
 				04D9E8C822706C42008C97D0 /* LaunchScreen.storyboard */,
+				04DEF70122719DD00023EE4E /* UIView+ViewExtension.h */,
+				04DEF70222719DD00023EE4E /* UIView+ViewExtension.m */,
+				04DEF70422719E470023EE4E /* PrefixHeader.pch */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -173,7 +181,8 @@
 			children = (
 				04D9E90722707551008C97D0 /* CalendarViewController.h */,
 				04D9E90822707551008C97D0 /* CalendarViewController.m */,
-				04D9E90922707551008C97D0 /* CalendarViewController.xib */,
+				04DEF7052271C59A0023EE4E /* AddTimeViewController.h */,
+				04DEF7062271C59A0023EE4E /* AddTimeViewController.m */,
 			);
 			path = Calendar;
 			sourceTree = "<group>";
@@ -305,7 +314,6 @@
 				04D9E9152270759A008C97D0 /* SettingViewController.xib in Resources */,
 				04D9E91022707570008C97D0 /* TimeViewController.xib in Resources */,
 				04D9E8C722706C42008C97D0 /* Assets.xcassets in Resources */,
-				04D9E90B22707551008C97D0 /* CalendarViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,8 +341,10 @@
 				04D9E906227074E8008C97D0 /* baseTabBarController.m in Sources */,
 				04D9E8F522706ED9008C97D0 /* AppDelegate.m in Sources */,
 				04D9E90322707242008C97D0 /* baseNavigationController.m in Sources */,
+				04DEF7072271C59A0023EE4E /* AddTimeViewController.m in Sources */,
 				04D9E9142270759A008C97D0 /* SettingViewController.m in Sources */,
 				04D9E90A22707551008C97D0 /* CalendarViewController.m in Sources */,
+				04DEF70322719DD00023EE4E /* UIView+ViewExtension.m in Sources */,
 				04D9E8F422706ED9008C97D0 /* main.m in Sources */,
 				04D9E90F22707570008C97D0 /* TimeViewController.m in Sources */,
 			);
@@ -499,15 +509,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R543CHUGT4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Code/punctuallyTime/punctuallyTime/punctuallyTime/main/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/punctuallyTime/main/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.THEWALKINGDEAD.punctuallyTime;
+				PRODUCT_BUNDLE_IDENTIFIER = com.THEWALKINGDEAD.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -518,15 +531,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R543CHUGT4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Code/punctuallyTime/punctuallyTime/punctuallyTime/main/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/punctuallyTime/main/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.THEWALKINGDEAD.punctuallyTime;
+				PRODUCT_BUNDLE_IDENTIFIER = com.THEWALKINGDEAD.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
