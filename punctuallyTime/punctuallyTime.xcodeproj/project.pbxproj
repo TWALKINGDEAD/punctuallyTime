@@ -22,6 +22,7 @@
 		04D9E9152270759A008C97D0 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D9E9132270759A008C97D0 /* SettingViewController.xib */; };
 		04DEF70322719DD00023EE4E /* UIView+ViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEF70222719DD00023EE4E /* UIView+ViewExtension.m */; };
 		04DEF7072271C59A0023EE4E /* AddTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEF7062271C59A0023EE4E /* AddTimeViewController.m */; };
+		04DEF76B227304C20023EE4E /* RemindTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DEF76A227304C20023EE4E /* RemindTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		04DEF70422719E470023EE4E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		04DEF7052271C59A0023EE4E /* AddTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTimeViewController.h; sourceTree = "<group>"; };
 		04DEF7062271C59A0023EE4E /* AddTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTimeViewController.m; sourceTree = "<group>"; };
+		04DEF769227304C20023EE4E /* RemindTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemindTableViewController.h; sourceTree = "<group>"; };
+		04DEF76A227304C20023EE4E /* RemindTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemindTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +186,8 @@
 				04D9E90822707551008C97D0 /* CalendarViewController.m */,
 				04DEF7052271C59A0023EE4E /* AddTimeViewController.h */,
 				04DEF7062271C59A0023EE4E /* AddTimeViewController.m */,
+				04DEF769227304C20023EE4E /* RemindTableViewController.h */,
+				04DEF76A227304C20023EE4E /* RemindTableViewController.m */,
 			);
 			path = Calendar;
 			sourceTree = "<group>";
@@ -338,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DEF76B227304C20023EE4E /* RemindTableViewController.m in Sources */,
 				04D9E906227074E8008C97D0 /* baseTabBarController.m in Sources */,
 				04D9E8F522706ED9008C97D0 /* AppDelegate.m in Sources */,
 				04D9E90322707242008C97D0 /* baseNavigationController.m in Sources */,
